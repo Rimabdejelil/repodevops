@@ -41,7 +41,7 @@ from PASSEPORT2 import run_PASSEPORT2
 from Card_ID_ancien2 import run_CINFR_ancien2
 from flask import Flask, request, jsonify, send_file
 import subprocess
-import numpy as np
+import os
 #from detect_and_crop import detect
 import glob
 #from detect_and_crop import detect
