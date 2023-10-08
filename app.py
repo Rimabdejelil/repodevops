@@ -50,6 +50,7 @@ from utils.torch_utils import select_device, TracedModel
 from PasseportTun import run_PassTN
 from orientation import get_orientation
 sys.stdout.reconfigure(encoding='utf-8')
+import cv2
 
 
 app = Flask(__name__)
