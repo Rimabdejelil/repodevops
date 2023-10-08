@@ -43,7 +43,7 @@ from flask import Flask, request, jsonify, send_file
 import subprocess
 import subprocess
 #from detect_and_crop import detect
-import cv2
+import numpy as np
 #from detect_and_crop import detect
 import numpy as np
 from utils.torch_utils import select_device, TracedModel
