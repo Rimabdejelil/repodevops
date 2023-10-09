@@ -3,9 +3,6 @@ task_list = []
 def add_task(task):
     task_list.append(task)
 
-def display_tasks():
-    for task in task_list:
-        print(task)
 
 
 def mark_task_as_completed(index):
