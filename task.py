@@ -13,4 +13,11 @@ def mark_task_as_completed(index):
     if 0 <= index < len(task_list):
         task_list[index]['completed'] = True
 
+# task_manager.py (dans la branche feature/marquer-tache-en-cours)
+
+def mark_task_as_in_progress(index):
+    if 0 <= index < len(task_list):
+        task_list[index]['status'] = 'En cours'
+
+
 
